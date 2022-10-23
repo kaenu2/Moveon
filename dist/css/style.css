@@ -360,7 +360,7 @@ body._lock {
   border-radius: 50px;
 }
 .app::before {
-  content: url("/img/apple.svg");
+  content: url("../img/apple.svg");
   position: absolute;
   top: 10px;
   left: 32px;
@@ -383,7 +383,7 @@ body._lock {
   border-radius: 50px;
 }
 .playmarket::before {
-  content: url("/img/playMarket.svg");
+  content: url("../img/playMarket.svg");
   width: 22px;
   height: 23px;
   position: absolute;
