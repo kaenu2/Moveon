@@ -61,6 +61,7 @@ body {
 		font-size: 36px;
 		line-height: 124%;
 		color: #FFFFFF;
+		transition: all 0.3s ease 0s;
 		&:hover{
 			color: #D6CEE1;
 		}
@@ -96,6 +97,7 @@ body {
 		font-size: 20px;
 		line-height: 124%;
 		color: #FFFFFF;
+		transition: all 0.3s ease 0s;
 		&:hover{
 			color: #D6CEE1;
 		}
@@ -107,11 +109,12 @@ body {
 	}
 }
 .soc {
+	display: flex;
+	align-items: center;
+	gap: 20px;
 	&__item {
 		color: #fff;
-		&:not(:last-child){
-			padding: 0px 20px 0px 0px;
-		}
+		transition: all 0.3s ease 0s;
 		&:hover{
 			filter: brightness(0.8);
 		}
@@ -352,6 +355,7 @@ body {
 	padding: 16px 36px 16px 70px;
 	border: 2px solid #FFFFFF;
 	border-radius: 50px;
+	transition: all 0.3s ease 0s;
 	&::before{
 		content: url("../img/apple.svg");
 		position: absolute;
@@ -374,6 +378,7 @@ body {
 	padding: 16px 37px 16px 60px;
 	border: 2px solid #FFFFFF;
 	border-radius: 50px;
+	transition: all 0.3s ease 0s;
 	&::before{
 		content: url("../img/playMarket.svg");
 		width: 22px;

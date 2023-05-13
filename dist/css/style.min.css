@@ -147,6 +147,7 @@ body._lock {
   font-size: 36px;
   line-height: 124%;
   color: #FFFFFF;
+  transition: all 0.3s ease 0s;
 }
 .header__logo:hover {
   color: #D6CEE1;
@@ -170,6 +171,7 @@ body._lock {
   font-size: 20px;
   line-height: 124%;
   color: #FFFFFF;
+  transition: all 0.3s ease 0s;
 }
 .menu__link:hover {
   color: #D6CEE1;
@@ -177,11 +179,14 @@ body._lock {
 .menu__link:active {
   filter: brightness(0.5);
 }
+.soc {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
 .soc__item {
   color: #fff;
-}
-.soc__item:not(:last-child) {
-  padding: 0px 20px 0px 0px;
+  transition: all 0.3s ease 0s;
 }
 .soc__item:hover {
   filter: brightness(0.8);
@@ -358,6 +363,7 @@ body._lock {
   padding: 16px 36px 16px 70px;
   border: 2px solid #FFFFFF;
   border-radius: 50px;
+  transition: all 0.3s ease 0s;
 }
 .app::before {
   content: url("../img/apple.svg");
@@ -381,6 +387,7 @@ body._lock {
   padding: 16px 37px 16px 60px;
   border: 2px solid #FFFFFF;
   border-radius: 50px;
+  transition: all 0.3s ease 0s;
 }
 .playmarket::before {
   content: url("../img/playMarket.svg");
